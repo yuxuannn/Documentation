@@ -102,7 +102,19 @@ CheckResources()</panel_attributes>
       <h>32</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-getRes()</panel_attributes>
+Press Get Resources Button</panel_attributes>
     <additional_attributes>280.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>416</y>
+      <w>120</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+getRes()</panel_attributes>
+    <additional_attributes>10.0;110.0;80.0;110.0;80.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
