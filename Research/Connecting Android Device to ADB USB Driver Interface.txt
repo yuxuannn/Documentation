@@ -1,0 +1,25 @@
+ADB or Android Device Bridge is a vital tool provided by Google in its SDK to boost Android Phone to its fullest performing potential. ADB is infact a remote control which you can use to perform tedious tasks such as Changing recoveries, Unlocking Bootloader , Flashing Custom ROM , Rooting Phone and many more. But to do all the above mentioned tasks properly we need to have our Android Phone connected to ADB and getting it connected to USB Debugging isn’t enough. So, here’s a tutorial which will cover all the points required to safely and surely connect your Phone to ADB using USB Driver.
+
+Requirements – 
+
+- An Android Phone with Developer Options & USB Debugging Enabled 
+- Your Computer or Mac must have Android ADB & Fastboot drivers installed
+- Additional Drivers may be required for Mediatek (MTK) devices – Micromax & Samsung.
+
+Steps to connect your Android device to ADB Bridge using USB –
+
+- Considering, you have USB Debugging enabled , connect your Phone to Computer using USB Cable.
+- Once you have connected USB Cable make sure that the message USB Debugging connected appears in your notifications bar as shown in the alongside image.
+- Now, Open Terminal inside Mac or Command Prompt (CMD) if you are inside Windows. If you are in Windows launch ADB / Command Prompt in Run as Administrator Mode only!!
+- Now, type in the Command “adb devices” and press or hit the enter key.
+It will show your connected Android device ID with an “unauthorized” label 
+- Now, try to give any “adb command” such as “ADB push xya” or “adb pull abc” and hit the enter key.
+- Return to your Phone, you will see a dialog box prompting you to authorize the computer
+- On the Android device, “Checkmark / Tick the signature box and tap on “OK”.
+
+- Now, we have successfully added the Computer’s Signature to ADB list.
+0 On your Computer return to the terminal / Command Prompt again, and now again type in the command “adb devices”  and hit the Enter / Return key.
+- But now instead of the “unauthorized” label which we saw at the first attempt, the ADB command will now show a message as “device” labelled besides your device id
+- ADB root, ADB shell
+
+http://www.technorange.com/2015/12/how-to-connect-your-android-device-to-adb-usb-driver-intterface/
